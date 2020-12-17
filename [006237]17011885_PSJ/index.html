@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--UPDATE 기록-->
+    <!--12/10
+    홈화면, 홈 트랜지션,네비게이션 바 완성-->
+    <!--12/15 update
+    홈화면 이외의 모든 장들 만들기
+    -->
+    <!--12/16 update
+    제출 전까지 해야할 것
+    1. service 칸에 아이콘에 모션 넣기->해결
+    2. 글자도 모션 넣기->해결
+    3. Home 수정하기
+    4. 자기소개 수정하기
+    5. html 파일에 각각 chapter 따로 저장시키고 연결하기->해결
+    6. 링크 안걸려있는거 다 걸어두기
+    7. 홈화면 트랜지션 더 넣기
+    8. pdf 파일 연동하기
+    -->
+    <meta charset="utf-8">
+    <title>Hit the Heater</title>
+    <!--구글 doc 영어 폰트 추가(12/10)-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css?ver='.G5_CSS_VER.'">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--구글 한글 폰트 추가-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Song+Myung&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <!--
+      NAV bar에 적용한 효과
+      1) 마우스를 호버하면 글씨 기울임과 글씨색상 및 크기 변화가 있다.
+      2) 창을 하단으로 내리면 로고와 목차가 함께 색상 변환한다.
+      3) 창을 하단으로 내리면 navbar의 고유 흰색 배경색이 지정된다.
+    -->
+    <nav class="navbar">
+        <div class="inner-width">
+          <a href="#" class="logo"><strong>HTH</strong></a>
+          <div class="navbar-menu">
+            <a href="index.html" >Home</a>
+            <a href="index2.html" >About</a>
+            <a href="index3.html">Services</a>
+            <a href="index6.html">Play</a>
+            <a href="index4.html">Team</a>
+            <a href="index5.html">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+
+    <!------------Home----------------->
+    <!--
+      Home에 적용시킨 효과
+      1) 10초마다 메인 글씨를 변화 시킴.(2초에서 10초로 수정)
+      2) Contact US를 누르면 Contact 화면으로 연결(마우스호버하면 배경색 반전)
+    -->
+    <section id="home">
+      <div class="inner-width">
+        <div class="content">
+          <h1></h1>
+          <div class="buttons">
+            <a href="index5.html">Contact Us</a>         
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+        <!--구글 doc 영어 폰트 추가(12/10)-->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css?ver='.G5_CSS_VER.'">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!--구글 한글 폰트 추가-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&family=Song+Myung&display=swap" rel="stylesheet">
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="inner-width">
+          <a href="index.html" class="logo"><strong>HTH</strong></a>
+          <div class="navbar-menu-sub">
+            <a href="index.html">Home</a>
+            <a href="index2.html">About</a>
+            <a href="index3.html">Services</a>
+            <a href="index6.html">Play</a>
+            <a href="index4.html">Team</a>
+            <a href="index5.html">Contact</a>
+          </div>
+        </div>
+    </nav>
+
+        <!--------------About---------->
+        <!--
+          ABOUT에 적용한 효과
+          1) 사진과 메인 글씨에 마우스를 가져다 대면 확대되는 Transition 구현
+          2) 사진 이미지를 클릭하면 붉은 글씨를 클릭하라는 팝업창 출력
+          3) 붉은 글씨를 클릭하면 내장되어 있는 pdf 파일 열람 가능
+        -->
+        <section id="about">
+            <div class="inner-width">
+              <h1 class="about-title">About</h1>
+              <div class="about-content">
+                <div class="about-pic-p">
+                  <a onclick="alert('자료를 확인하고 싶다면\n붉은 글씨의 제목을 클릭해주세요')">
+                    <img src="images/sideback.png" alt="" class="about-pic">
+                  </a>
+                </div>
+              
+                <div class="about-text">
+                  <div class="subtitle">
+                    <a href="file/downppt.pdf" download target="_blank">
+                      <h3 class="sub-title1">"히터를 가정 혹은 회사에서 보다</h3>
+                      <h3 class="sub-title2">안전하고 건강하게 사용한다"</h3>
+                    </a>
+                  </div>
+                  <div class="text">
+                  <p class="p1">겨울이 찾아왔고, 날씨가 추워짐에 따라 난로 사용이 증가하였다 <br>
+                    가정이나 회사에서 책상 밑에 두고 사용하는 간이 히터로 몸을 녹이곤 한다</p><br>
+                  <p class="p2">하지만 간이 히터로 인해 저온화상과 열로 인한 피부 반점 등 당신을 위협하고 있다는 사실<br><br>
+                    밀폐된 공간 안에서 히터 사용으로 인한 미세먼지는 호흡기 질환에 노출되기 쉽다는 사실</p><br>
+                  <p class="p3"> 
+                    히터로부터 둔감한 당신을 위해 민감한 히터를 당신에게 소개한다<br>
+                    보다 안전하고 건강하며 편리한 당신의 <span><strong>Hit the Heater.</strong></span><br>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+  </body>
+</html>
