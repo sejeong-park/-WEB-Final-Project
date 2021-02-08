@@ -1,5 +1,4 @@
-# 
-##Hit the Heater
+# Hit the Heater
 
 스마트 히터 iot 어플리케이션 제작
 
